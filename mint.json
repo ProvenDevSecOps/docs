@@ -33,13 +33,8 @@
   ],
   "anchors": [
     {
-      "name": "Docs",
-      "icon": "book-open-cover",
-      "url": "https://docs.proven.cloud"
-    },
-    {
-      "name": "Docs",
-      "icon": "book-open-cover",
+      "name": "Console",
+      "icon": "window-maximize",
       "url": "https://docs.proven.cloud"
     },
     {
