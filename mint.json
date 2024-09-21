@@ -35,6 +35,10 @@
       "url": "accounts"
     },
     {
+      "name": "Organization",
+      "url": "org"
+    },
+    {
       "name": "API",
       "url": "api"
     }
@@ -66,28 +70,42 @@
       ]
     },
     {
-      "group": "Essentials",
+      "group": "Services",
       "pages": [
-        "essentials/markdown",
-        "essentials/code",
-        "essentials/images",
-        "essentials/settings",
-        "essentials/navigation",
-        "essentials/reusable-snippets"
+        "services/markdown",
+        "services/code",
+        "services/images",
+        "services/settings",
+        "services/navigation",
+        "services/reusable-snippets"
       ]
     },
     {
-      "group": "API Documentation",
+      "group": "Accounts",
       "pages": [
-        "api-reference/introduction"
+        "accounts/markdown",
+        "accounts/code",
+        "accounts/images",
+        "accounts/settings",
+        "accounts/navigation",
+        "accounts/reusable-snippets"
       ]
     },
     {
-      "group": "Endpoint Examples",
+      "group": "Organization",
       "pages": [
-        "api-reference/endpoint/get",
-        "api-reference/endpoint/create",
-        "api-reference/endpoint/delete"
+        "org/markdown",
+        "org/code",
+        "org/images",
+        "org/settings",
+        "org/navigation",
+        "org/reusable-snippets"
+      ]
+    },
+    {
+      "group": "API",
+      "pages": [
+        "api/introduction"
       ]
     }
   ],
