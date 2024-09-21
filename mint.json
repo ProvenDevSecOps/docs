@@ -27,6 +27,14 @@
   },
   "tabs": [
     {
+      "name": "Services",
+      "url": "services"
+    },
+    {
+      "name": "Accounts",
+      "url": "accounts"
+    },
+    {
       "name": "API",
       "url": "api"
     }
