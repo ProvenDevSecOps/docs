@@ -3,7 +3,7 @@
   "name": "Proven",
   "logo": {
     "dark": "/logo/dark.png",
-    "light": "/logo/light.svg"
+    "light": "/logo/dark.png"
   },
   "favicon": "/logo/dark.png",
   "colors": {
@@ -39,6 +39,10 @@
       "url": "org"
     },
     {
+      "name": "Users",
+      "url": "users"
+    },
+    {
       "name": "API",
       "url": "api"
     }
@@ -47,7 +51,7 @@
     {
       "name": "Console",
       "icon": "window-maximize",
-      "url": "https://docs.proven.cloud"
+      "url": "https://console.proven.cloud"
     },
     {
       "name": "Colony",
@@ -83,23 +87,86 @@
     {
       "group": "Accounts",
       "pages": [
-        "accounts/markdown",
-        "accounts/code",
-        "accounts/images",
-        "accounts/settings",
-        "accounts/navigation",
-        "accounts/reusable-snippets"
+        "accounts/connect",
+        "accounts/update",
+        "accounts/remove",
+        "accounts/types"
+      ]
+    },
+    {
+      "group": "Types",
+      "pages": [
+        {
+          "group": "CSP",
+          "icon": "cloud",
+          "pages": [
+            "accounts/types/csp/aws",
+            "accounts/types/csp/azure",
+            "accounts/types/csp/gcp"
+          ]
+        },
+        {
+          "group": "Git",
+          "icon": "square-git",
+          "pages": [
+            "accounts/types/git/github",
+            "accounts/types/git/gitlab",
+            "accounts/types/git/bitbucket"
+          ]
+        },
+        {
+          "group": "Tools",
+          "icon": "magnifying-glass",
+          "pages": [
+            "accounts/types/tools/datadog",
+            "accounts/types/tools/alienvault"
+          ]
+        }
       ]
     },
     {
       "group": "Organization",
       "pages": [
-        "org/markdown",
         "org/code",
         "org/images",
         "org/settings",
         "org/navigation",
         "org/reusable-snippets"
+      ]
+    },
+    {
+      "group": "Security",
+      "pages": [
+        "org/security/ingress",
+        "org/security/logs"
+      ]
+    },
+    {
+      "group": "Users",
+      "pages": [
+        "users/profile",
+        "users/preferences",
+        "users/orgs",
+        "users/logs",
+        "users/security",
+        "users/privacy"
+      ]
+    },
+    {
+      "group": "Authentication",
+      "pages": [
+        "users/auth/signin",
+        "users/auth/signup",
+        {
+          "group": "Providers",
+          "icon": "id-card-clip",
+          "pages": [
+            "users/auth/providers/apple",
+            "users/auth/providers/github",
+            "users/auth/providers/google",
+            "users/auth/providers/microsoft"
+          ]
+        }
       ]
     },
     {
